@@ -1,0 +1,145 @@
+*{
+  background-color: rgb(80, 80, 80);
+  
+}
+
+.array-container {
+    
+    width: 100%;
+    position: absolute;
+    height: 80%;
+    
+  }
+  
+  .array-bar {
+    width: 0.22%;
+    display: inline-block;
+    margin: 0 1px;
+    height:max-content 80%;
+    margin-bottom: 5px;
+    bottom: 0px;
+  }
+
+
+.button{
+  
+  border:1px solid black;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  font:bold 14px/30px arial;
+  background-color: #bb86fc;
+  border-radius: 1px;
+  display:inline;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 15%;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+
+  
+  }
+
+  .button:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    transform: scale(1.1)
+    
+  }
+
+
+  .ArrayButton{
+  background: #bb86fc;
+  border:1px solid rgb(0, 0, 0);
+  color:rgb(0, 0, 0);
+  text-align:center;
+  font:bold 14px/30px arial;
+  border-radius: 1px;
+  display:inline;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 15%;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  }
+
+  .ArrayButton:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    transform: scale(1.1)
+    
+  }
+
+
+
+  .details{
+    background-color: rgb(51, 51, 51);
+    width: 55%;
+    height:70%;
+    display:flex;
+    margin-left: 20px;
+
+    
+  }
+
+  .header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 90px;
+    top: 0;
+    z-index: 100;
+    
+  }
+
+  .factLabel{
+    width: 10%;
+    height: 60px;
+    font-size:large;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #bb86fc;
+    display: flex;
+    border:1px solid black;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+   
+  }
+
+  .body{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+
+  }
+
+  .routes{
+    height: 40px;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+  }
+
+  .routeButton{
+    width: 20%;
+    height: 30px;
+    font-size:large;
+
+    background-color: #bb86fc;
+    border:1px solid black;
+    border-radius: 5px;
+    text-align:center;
+  }
+
+  .routeButton:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    transform: scale(1.1)
+    
+  }

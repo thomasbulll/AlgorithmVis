@@ -1,0 +1,36 @@
+.Title{
+    background-color: #bb86fc;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 10%;
+    height: 50px;
+}
+
+.SubTitle{
+    background-color: #bb86fc;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 10%;
+    height: 80px;
+}
+
+.column {
+    width:100%;
+  }
+  
+  .row {
+    width:19%;
+
+    display:inline-block;
+    align-items: center;
+   
+    align-content: center;
+  }
+  .row img {
+    width:100%;
+    padding:3px;
+    vertical-align:top;
+    border-radius: 100%;
+  }
